@@ -38,19 +38,114 @@
 }
 
 .section {
-   
+    position: relative;
+    top: 30px;
     display: flex;
     justify-content: center;
 
 }
 
+.text {
+    position: relative;
+    left: 10px;
+    font-size: 16px;
+}
 
+button {
+   background-color: rgb(229, 10, 65);
+   color: white;
+   width: 348px;
+   height: 52px;
+   border-radius: 10px;
+   cursor: pointer;
+   display: block;
+}
+
+
+.btn2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 80px;
+    cursor: pointer;
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+}
+
+.content {
+    position: relative;
+    top: 100px;
+}
+.line {
+    width: 110px;
+    height: 10px;
+    background:  rgb(198, 20, 50);
+    
+    position: relative;
+    top: 10px;
+    left: 193px;
+}
+
+.content2 {
+    position: relative;
+    top: 200px;
+}
+.content2 h2 {
+    color: gray;
+}
+.content2 p {
+    font-weight: 10px;
+    color: rgb(205, 24, 54);
+}
+
+.lastcontent  {
+    background: gray;
+    position: relative;
+    top: 220px;
+    
+    padding: 80px;
+}
+
+.lastcontent h3 {
+    padding: 10px;
+    color: rgb(203, 32, 89);
+}
+
+.btn3 {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 .footer {
     text-align: center;
-    padding: 20px;
-    background: #eee;
+    width: auto;
+    padding: 65px;
+    background: white;
+    padding-top: 500px;
+    padding-bottom: 300px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(161, 147, 147);
+   
 }
 .footer img {
     width: 30px;
     margin: 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
 }
