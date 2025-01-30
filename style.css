@@ -4,20 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-left: 270px;
+    padding-right: 270px;
+    height: 100vh;
+    width: 100vw;
+}
+
 .wrapper {
    width: 100%;
-   max-width: 600px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    margin: auto;
-    
 }
 
 .header {
     height: auto;
-    width: fit-content;
+    width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
     background: #dfd8d8;
     
 }
@@ -35,6 +45,26 @@
 .header h1 {
     text-align: center;
     color: rgb(220, 24, 24);
+}
+
+.section-1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 1024px) {
+    .section-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .section {
